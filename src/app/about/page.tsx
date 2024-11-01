@@ -2,9 +2,9 @@
 
 export default function About(){
     return(
-        <main>
+        <main className="about">
             <h1 className="personal-info">Personal introduction</h1>
-            <p className="personal">Hey, I'm Sana, an enthusiastic IT student  <br />
+            <p className="personal">Hey, I am Sana, an enthusiastic IT student  <br />
              from GIAIC, with a strong interest in exploring emerging technologies like Web 3.0, the Metaverse, and AI.</p>
 
              <h1 className="skill-info">Skills & Expertise</h1>
