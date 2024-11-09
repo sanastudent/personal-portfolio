@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJsSquare, faReact, faCode } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJsSquare, faReact,  } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -74,4 +74,3 @@ export default function Home(){
 </section>
 </main>
   )};
-  
