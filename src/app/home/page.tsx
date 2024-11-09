@@ -1,6 +1,10 @@
 
 
-import Image from "next/image"
+import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3Alt, faJsSquare, faReact, faCode } from '@fortawesome/free-brands-svg-icons';
+
+
 
 export default function Home(){
   return(
@@ -27,11 +31,40 @@ export default function Home(){
     <h6 className="skill-section">My Skills</h6>
     <h1 className="expert-section">My Expertise</h1>
 
-    <div className="skills-list">Html</div>
-    <div className="skills-list">Css </div>
-    <div className="skills-list">Typescript</div>
-    <div className="skills-list">Nextjs</div>
-    <div className="skills-list">Tailwind Css</div>
+
+<div className="skills-list">
+  <div className="skill-item">
+    <div className="icon">
+      <FontAwesomeIcon icon={faHtml5} style={{ fontSize: '100%' }} />
+    </div>
+    <span>HTML</span>
+  </div>
+
+  <div className="skill-item">
+    <div className="icon">
+      <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: '100%' }} />
+    </div>
+    <span>CSS</span>
+  </div>
+
+  <div className="skill-item">
+    <div className="icon">
+      <FontAwesomeIcon icon={faJsSquare} style={{ fontSize: '100%' }} />
+    </div>
+    <span>JavaScript</span>
+  </div>
+
+  <div className="skill-item">
+    <div className="icon">
+      <FontAwesomeIcon icon={faReact} style={{ fontSize: '100%' }} />
+    </div>
+    <span>Next.js</span>
+  </div>
+
+ 
+</div>
+
+
   </div>
   </div> 
 

@@ -1,5 +1,7 @@
 
 
+import  "./about.css"
+
 export default function About(){
     return(
         <main className="about">
@@ -13,6 +15,10 @@ export default function About(){
 
               <h1 className="goal-info">Aspiration </h1>
               <p className="goal"> My goal is to become a software developer who creates efficient, scalable, and impactful software solutions.</p>
+        
+        
+     
+        
         </main>
     )
 }

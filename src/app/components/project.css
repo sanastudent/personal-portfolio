@@ -1,0 +1,155 @@
+
+/* styles.css */
+.project-card {
+    max-width: 20rem; /* Equivalent to max-w-sm */
+    border-radius: 0.5rem; /* Equivalent to rounded */
+    overflow: hidden; /* Equivalent to overflow-hidden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+    background-color: #4caf50; /* Equivalent to bg-emerald-700 */
+    padding: 1rem; /* Equivalent to p-4 */
+  }
+  
+  .project-image {
+    width: 100%; /* Equivalent to w-full */
+    height: 8rem; /* Equivalent to h-32 */
+    object-fit: cover; /* Equivalent to object-cover */
+  }
+  
+  .project-title {
+    font-weight: bold; /* Equivalent to font-bold */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+  }
+  
+  .project-description {
+    color:#333; /* Equivalent to text-emerald-300 */
+    font-size: 1rem; /* Equivalent to text-base */
+    line-height:1.5 rem ;
+    --tw-text-opacity: 1;
+    color: rgb(110 231 183 / var(--tw-text-opacity)) /* #6ee7b7 */;
+}
+
+  
+  .github-link {
+    color: #7ddcfb; /* Equivalent to text-green-950 */
+    transition: color 0.2s; /* Smooth color transition */
+    padding-left: 1.5rem /* 24px */;
+    padding-right: 1.5rem ;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+  }
+  
+  .github-link:hover {
+    color: #0d47a1; /* Equivalent to hover:text-blue-700 */
+  }
+
+  .card {
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgb(100, 146, 130); /* Emerald 700 */
+    padding: 1rem;
+    color: #ffffff;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 8rem; /* Equivalent to Tailwind h-32 */
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1rem 1.5rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    color: #6ee7b7; /* Emerald 300 */
+    font-size: 1rem;
+  }
+  
+  .card-footer {
+    padding: 0.5rem 1.5rem 1rem;
+  }
+  
+  .card-link {
+    color: #87edd2; /* Similar to Tailwind green-950 */
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    color: #1e40af; /* Similar to Tailwind blue-700 */
+  }
+  
+
+  
+  /* Project page styles.css */
+
+
+.heading1 {
+    font-size: 2rem; /* Adjust font size for heading */
+    font-weight: bolder;
+    margin-bottom: 16px; /* Spacing below the heading */
+    color: #246344; /* Emerald color */
+}
+
+.grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 16px; /* Space between grid items */
+}
+
+.project-card {
+    background-color: #38A169; /* Emerald background */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 16px; /* Padding inside the card */
+}
+
+.project-card img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.project-card h2 {
+    font-size: 1.25rem; /* Font size for title */
+    margin: 12px 0; /* Spacing around title */
+}
+
+.project-card p {
+    color: #F0FFF4; /* Light color for description */
+}
+
+.project-card a {
+    color: #2C5282; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.project-card a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+  
+  @media (min-width: 640px) { /* For small screens and above */
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on small screens */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* For large screens and above */
+    .grid {
+      grid-template-columns: repeat(3, 1fr); /* Three columns on large screens */
+    }
+  }
+  
+
+
+

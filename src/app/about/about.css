@@ -1,0 +1,41 @@
+
+
+/* about page */
+
+.about{
+
+    text-align: center;
+    padding: 20px;
+    
+  
+  }
+  .personal-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: darkolivegreen;
+  
+  }
+  .personal,
+  .skill-info,
+  .goal-info {
+    color: darkolivegreen;
+    font-size: 2em;
+    margin-left: 20px;
+    font-family: cursive;
+  }
+  
+  
+  .skills{
+    color: darkolivegreen;
+    font-family: cursive;
+  }
+  
+  .goal-info{
+    color: darkolivegreen;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  

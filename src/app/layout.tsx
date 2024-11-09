@@ -33,7 +33,7 @@ export default function RootLayout({
       >
       
 
-      <header id="header">
+      <header className="header">
 
           <div>
             <nav className="navbar">
@@ -41,10 +41,14 @@ export default function RootLayout({
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/projects">Projects </Link></li>
                 </ul>         
-               </nav>
+              </nav>
+              </div>
              
-          </div>
+          
+
+
         </header>
 
 
